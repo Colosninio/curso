@@ -1,0 +1,16 @@
+#h1-id {
+    color: darksalmon;
+}
+.h1-class {
+    color: yellow
+}
+h1 {
+    color: blue !important
+}
+
+
+
+p{
+    color: red
+}
+/*son 5, por id, por clase, por etiqueta, en el html, y la q mas se impone es la !important */

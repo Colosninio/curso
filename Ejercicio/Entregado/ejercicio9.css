@@ -1,0 +1,34 @@
+.contenedor {
+    background-color: bisque;
+    padding: 0.5rem;
+    gap: 0.5rem;
+    display: flex;
+    flex-direction: row;
+}
+.nav {
+    display: flex;
+    flex-direction: column;
+    width: 6rem;
+
+
+
+}
+.principaltxt {
+    display: flex;
+    align-items: center;
+
+} 
+@media  (min-width: 640px) {
+    .contenedor {
+        flex-direction: column;
+    }
+    .nav {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+    }
+    .principaltxt {
+        display: flex;
+        align-items: self-start;
+    }
+}

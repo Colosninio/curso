@@ -1,0 +1,11 @@
+.boton-class::after {
+    content: "Pasa por encima"
+}
+.boton-class:hover {
+    background-color: white;
+    color: green;
+    content: "Correcto";
+}
+#boton-id:hover:after {
+    content: "!Hecho!" 
+}
