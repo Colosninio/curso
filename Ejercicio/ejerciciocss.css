@@ -1,0 +1,10 @@
+#elemento-1 {
+    color: red;
+}
+#elemento-2 {
+    color: green;
+
+}
+ul.liu li#elemento-1{
+    font-size: 2rem;
+}
