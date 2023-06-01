@@ -62,4 +62,28 @@ $border-custom: solid 1px #ccc;
 
 
 @debug list.set-nth($border-custom, 2, 2px);
- 
+ //// Funciones de selector
+$selector-1: "a";
+$selector-2: ".disabled";
+@debug selector.append($selector-1, $selector-2);
+//// Funciones de color
+
+$color: rgb(226, 81, 255);
+@debug color.adjust($color, $red: -50, $alpha: -0.5);
+$color-2: rgb(176, 81, 255, 0.5);
+
+@debug color.complement($color);
+$color-comp: #6eff51;
+@debug darken($color, 20%);
+$color-dark: #c300ea;
+@debug lighten($color, 20%);
+$color-light: #f3b7ff;
+
+@debug color.red($color);
+@debug color.green($color);
+@debug color.blue($color);
+
+@debug color.hue($color);
+
+@debug color.invert($color);
+$color-inv: #1dae00;
